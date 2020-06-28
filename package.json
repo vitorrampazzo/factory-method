@@ -1,0 +1,19 @@
+{
+  "name": "testes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn tsc src/index.ts",
+    "dev": "nodemon --inspect ./src/index.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "install": "^0.13.0",
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
